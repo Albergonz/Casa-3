@@ -21,5 +21,9 @@ namespace Casa_3
             return (Base * Altezza * 2);
 
         }
-    }
+
+        public override string ToString()
+        {
+            return string.Format("Rettangolo di altezza {0} e base{1}",  Altezza, Base);
+        }
 }

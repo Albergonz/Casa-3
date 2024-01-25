@@ -21,6 +21,8 @@ namespace Casa_3
             rettangolo.Altezza = rettangolo.Base;
             Console.WriteLine("A: {0}", rettangolo.Area());
             Console.WriteLine("2P: {0}", rettangolo.Perimetro());
+
+
         }
     }
 }
